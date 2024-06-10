@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: #81689D;
+  
+}
+
+#level-title {
+  font-family: "Gwendolyn", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+  margin:  5%;
+  color: #1F2544;
+}
+
+.container {
+  /* border: 2px solid rgb(30, 37, 55); */
+  border-radius: 50px;
+  box-shadow: 50px 50px 50px 0 rgba(0,0,0,0.2), 0 50px 50px 0 rgba(0,0,0,0.19);
+  display: block;
+  width: 50%;
+  margin: auto;
+  background-color:  #474F7A;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  
+  border-radius: 20%;
+
+}
+.btn:hover{
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(248, 116, 116);
+}
+.red:hover{
+  background-color: rgba(255, 0, 0, 0.683);
+}
+.green {
+  background-color: rgb(121, 244, 121);
+}
+.green:hover{
+  background-color: rgba(0, 128, 0, 0.683);
+}
+
+.blue {
+  background-color: rgb(117, 117, 248);
+}
+.blue:hover{
+  background-color: rgba(0, 0, 255, 0.683);
+}
+
+.yellow {
+  background-color: rgb(246, 246, 117);
+}
+.yellow:hover{
+  background-color: rgba(255, 255, 0, 0.683);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
