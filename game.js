@@ -12,6 +12,14 @@ $(document).keydown(function(){
     }
 })
 
+$(document).click(function(){
+    if(!start){
+        $("#level-title").text("Level "+level);
+        nextSequence();
+        start = true;
+    }
+})
+
 function nextSequence(){
     userClickedPattern = [];
     level++;
